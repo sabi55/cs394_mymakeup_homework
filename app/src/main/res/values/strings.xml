@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Sabina MakeUp</string>
+    <string-array name="first_names">
+        <item>Rocky</item>
+        <item>Cherey</item>
+        <item>Stillman</item>
+        <!-- Add more first names here -->
+    </string-array>
+
+    <string-array name="last_names">
+        <item>Jacop</item>
+        <item>Sayers</item>
+        <item>Proback</item>
+        <!-- Add more last names here -->
+    </string-array>
+
+    <string-array name="permit_numbers">
+        <item>65033026</item>
+        <item>44264512</item>
+        <item>70559933</item>
+        <!-- Add more permit numbers here -->
+    </string-array>
+
+    <string-array name="issue_dates">
+        <item>10/15/2011</item>
+        <item>10/25/2017</item>
+        <item>4/11/2019</item>
+        <!-- Add more issue dates here -->
+    </string-array>
+
+    <string-array name="expiration_dates">
+        <item>3/12/2030</item>
+        <item>4/26/2025</item>
+        <item>6/16/2027</item>
+        <!-- Add more expiration dates here -->
+    </string-array>
+
+    <string-array name="residence_types">
+        <item>active</item>
+        <item>active</item>
+        <item>expired</item>
+        <!-- Add more residence types here -->
+    </string-array>
+
+    <string-array name="countries_of_origin">
+        <item>Turkey</item>
+        <item>Turkey</item>
+        <item>Turkey</item>
+        <!-- Add more countries here -->
+    </string-array>
+
+</resources>

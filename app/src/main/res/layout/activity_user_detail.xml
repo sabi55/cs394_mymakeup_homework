@@ -1,0 +1,54 @@
+<!-- res/layout/activity_user_detail.xml -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="permit"
+            type="com.example.mymakeup.model.Permit" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sugar_pink"> <!-- Background color -->
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{permit.name}"
+            android:textColor="#000000" /> <!-- Set text color to black -->
+
+        <TextView
+            android:id="@+id/brandTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameTV"
+            android:text="@{permit.brand}"
+            android:textColor="#000000" /> <!-- Set text color to black -->
+
+        <TextView
+            android:id="@+id/shadeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/brandTV"
+            android:text="@{permit.shade}"
+            android:textColor="#000000" /> <!-- Set text color to black -->
+
+        <TextView
+            android:id="@+id/priceTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shadeTV"
+            android:text='@{"Price: $" + permit.price}'
+            android:textColor="#000000" /> <!-- Set text color to black -->
+
+        <TextView
+            android:id="@+id/descriptionTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/priceTV"
+            android:text="@{permit.description}"
+            android:textColor="#000000" /> <!-- Set text color to black -->
+    </RelativeLayout>
+</layout>
